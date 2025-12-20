@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Pelican Property Builders</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo/pelican-property-builders.svg" alt="Pelican Property Builders" class="logo-img">
+                    </a>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="key-pillars.html">Key Pillars</a></li>
+                    <li><a href="plans.html">Plans</a></li>
+                    <li><a href="installments.html">Installments</a></li>
+                    <li><a href="development.html">Development</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in Touch with Pelican Property Builders</p>
+        </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <div class="container" style="padding: 20px 20px 0;">
+        <nav style="color: var(--text-light);">
+            <a href="index.html" style="color: var(--primary-color); text-decoration: none;">Home</a> » Contact Us
+        </nav>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="page-content">
+        <div class="container">
+            <div class="content-section">
+                <h2>Booking @ Pelican Mall and Swiss International Hotel</h2>
+                <p style="text-align: center; margin-bottom: 3rem;">Fill out the form below to register your interest or get in touch with us for any inquiries.</p>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form" style="max-width: 700px;">
+                <form>
+                    <div class="form-group">
+                        <label for="firstName">First Name *</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name *</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone *</label>
+                        <div class="phone-input-group">
+                            <select name="countryCode" required>
+                                <option value="+92">+92</option>
+                                <option value="+971">+971</option>
+                                <option value="+1">+1</option>
+                                <option value="+44">+44</option>
+                                <option value="+61">+61</option>
+                            </select>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="interested">Interested in *</label>
+                        <select id="interested" name="interested" required>
+                            <option value="">Select an option</option>
+                            <option value="mall-shop">Pelican Mall Shop</option>
+                            <option value="hotel-room">Swiss International Hotel Room</option>
+                            <option value="villa-8marla">8 Marla Spring Villa</option>
+                            <option value="villa-10marla">10 Marla Lifestyle Villa</option>
+                            <option value="villa-1kanal">1 Kanal Signature Villa</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell us about your requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem; padding: 15px;">Submit</button>
+                </form>
+            </div>
+
+            <!-- Office Locations -->
+            <div class="content-section" style="margin-top: 4rem;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                    <!-- Dubai Office -->
+                    <div style="background: var(--bg-light); padding: 2rem; border-radius: 10px;">
+                        <h3 style="color: var(--primary-color); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 1rem;">
+                            <i class="fas fa-building"></i> Dubai Office
+                        </h3>
+                        <div style="line-height: 1.8; color: var(--text-light);">
+                            <p style="margin-bottom: 1rem;">
+                                <i class="fas fa-map-marker-alt" style="color: var(--primary-color); margin-right: 0.5rem;"></i>
+                                Office 217, AB Business Center, Main Sheikh Zayed Road, Al Barsha 1, Dubai, UAE.
+                            </p>
+                            <p style="margin-bottom: 1rem;">
+                                <i class="fas fa-envelope" style="color: var(--primary-color); margin-right: 0.5rem;"></i>
+                                <a href="mailto:info@pelicantechnical.ae" style="color: var(--primary-color); text-decoration: none;">info@pelicantechnical.ae</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-phone" style="color: var(--primary-color); margin-right: 0.5rem;"></i>
+                                +971 4 2665670<br>
+                                <span style="padding-left: 1.5rem;">+971 56 1820651</span><br>
+                                <span style="padding-left: 1.5rem;">+971 56 1889030</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Bahawalpur Office -->
+                    <div style="background: var(--bg-light); padding: 2rem; border-radius: 10px;">
+                        <h3 style="color: var(--primary-color); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 1rem;">
+                            <i class="fas fa-building"></i> Bahawalpur Office
+                        </h3>
+                        <div style="line-height: 1.8; color: var(--text-light);">
+                            <p style="margin-bottom: 1rem;">
+                                <i class="fas fa-map-marker-alt" style="color: var(--primary-color); margin-right: 0.5rem;"></i>
+                                Main Boulevard, Jinnah Avenue, DHA, Bahawalpur
+                            </p>
+                            <p style="margin-bottom: 1rem;">
+                                <i class="fas fa-envelope" style="color: var(--primary-color); margin-right: 0.5rem;"></i>
+                                <a href="mailto:info@pelicanproperties.pk" style="color: var(--primary-color); text-decoration: none;">info@pelicanproperties.pk</a>
+                            </p>
+                            <p>
+                                <i class="fas fa-phone" style="color: var(--primary-color); margin-right: 0.5rem;"></i>
+                                UAN: +92 311 123 3338
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top-pattern"></div>
+        <div class="container">
+            <!-- Main Footer Content -->
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="footer-logo-wrapper">
+                        <img src="images/logo/pelican-property-builders.svg" alt="Pelican Properties" class="footer-logo">
+                        <span class="footer-brand-text">Pelican Properties</span>
+                    </div>
+                    <p class="footer-description">Building dreams since 2015. Your trusted partner in premium real estate development across Pakistan.</p>
+                    <div class="footer-social-modern">
+                        <a href="#" aria-label="Facebook" class="social-link facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="social-link instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="social-link twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" aria-label="LinkedIn" class="social-link linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" aria-label="YouTube" class="social-link youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links-grid">
+                    <div class="footer-column">
+                        <h4 class="footer-column-title">
+                            <span class="title-icon"><i class="fas fa-building"></i></span>
+                            Offices
+                        </h4>
+                        <div class="footer-office">
+                            <div class="office-item">
+                                <div class="office-label">Dubai Office</div>
+                                <p class="office-address">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Office 217, AB Business Center, Main Sheikh Zayed Road, Al Barsha 1, Dubai, UAE
+                                </p>
+                                <p class="office-contact">
+                                    <i class="fas fa-envelope"></i>
+                                    <a href="mailto:info@pelicantechnical.ae">info@pelicantechnical.ae</a>
+                                </p>
+                                <p class="office-contact">
+                                    <i class="fas fa-phone"></i>
+                                    <a href="tel:+97142665670">+971 4 2665670</a>
+                                </p>
+                                <p class="office-contact">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <a href="tel:+971561820651">+971 56 1820651</a> | <a href="tel:+971561889030">+971 56 1889030</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4 class="footer-column-title">
+                            <span class="title-icon"><i class="fas fa-home"></i></span>
+                            Bahawalpur Office
+                        </h4>
+                        <div class="footer-office">
+                            <div class="office-item">
+                                <p class="office-address">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Main Boulevard, Jinnah Avenue, DHA, Bahawalpur
+                                </p>
+                                <p class="office-contact">
+                                    <i class="fas fa-envelope"></i>
+                                    <a href="mailto:info@pelicanproperties.pk">info@pelicanproperties.pk</a>
+                                </p>
+                                <p class="office-contact">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <a href="tel:+923111233338">UAN: +92 311 123 3338</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4 class="footer-column-title">
+                            <span class="title-icon"><i class="fas fa-link"></i></span>
+                            Quick Links
+                        </h4>
+                        <ul class="footer-nav-links">
+                            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="features.html"><i class="fas fa-chevron-right"></i> Features</a></li>
+                            <li><a href="key-pillars.html"><i class="fas fa-chevron-right"></i> Key Pillars</a></li>
+                            <li><a href="plans.html"><i class="fas fa-chevron-right"></i> Plans & Pricing</a></li>
+                            <li><a href="installments.html"><i class="fas fa-chevron-right"></i> Installments</a></li>
+                            <li><a href="development.html"><i class="fas fa-chevron-right"></i> Development</a></li>
+                            <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4 class="footer-column-title">
+                            <span class="title-icon"><i class="fas fa-bell"></i></span>
+                            Newsletter
+                        </h4>
+                        <p class="newsletter-desc">Subscribe to get exclusive property updates and special offers.</p>
+                        <form class="newsletter-form">
+                            <div class="newsletter-input-wrapper">
+                                <input type="email" placeholder="Enter your email" class="newsletter-input" required>
+                                <button type="submit" class="newsletter-btn">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="footer-legal-links">
+                            <a href="#"><i class="fas fa-shield-alt"></i> Privacy Policy</a>
+                            <a href="#"><i class="fas fa-file-contract"></i> Terms & Conditions</a>
+                            <a href="#"><i class="fas fa-cookie"></i> Cookie Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom-modern">
+                <div class="footer-bottom-content">
+                    <p class="copyright">&copy; 2025 <span class="copyright-brand">Pelican Properties</span>. All Rights Reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Sitemap</a>
+                        <span class="separator">|</span>
+                        <a href="#">Accessibility</a>
+                        <span class="separator">|</span>
+                        <a href="#">Careers</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom-pattern"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
