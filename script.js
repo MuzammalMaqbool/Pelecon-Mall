@@ -6,8 +6,8 @@ window.addEventListener('load', () => {
             loader.classList.add('hidden');
             setTimeout(() => {
                 loader.style.display = 'none';
-            }, 500);
-        }, 1000);
+            }, 300);
+        }, 300);
     }
 });
 
