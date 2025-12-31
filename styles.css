@@ -2434,7 +2434,9 @@ section {
     }
 
     .nav-cta {
-       display: none;
+        margin: 0.5rem 1rem;
+        width: calc(100% - 2rem);
+        text-align: center;
     }
 
     .hero {
@@ -2681,8 +2683,7 @@ section {
     }
 
     .nav-cta {
-        padding: 0.7rem 1.5rem;
-        font-size: 14px;
+       display: none;
     }
 
     .property-price {
